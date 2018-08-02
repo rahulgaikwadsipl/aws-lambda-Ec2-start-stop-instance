@@ -19,7 +19,7 @@ Steps
 5.    Expand the Role drop-down menu, and then choose Create a custom role. This opens a new tab or window in your browser.
 6.    In the IAM Role drop-down menu, choose Create a new IAM Role, and enter a Role Name, such as “lambda_start_stop_ec2."
 7.    Expand View Policy Document, choose Edit, and then choose Ok when prompted to read the documentation. Edit the policy as follows:
-``::``
+```
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -42,7 +42,7 @@ Steps
     }
   ]
 }
-``::``
+```
 8.    Choose Allow to complete the role and return to the AWS Lambda console, and then choose Create Function.
 9.    To stop your instances, enter the following into the Function code editor:
 

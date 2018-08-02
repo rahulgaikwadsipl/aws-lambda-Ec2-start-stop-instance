@@ -3,7 +3,7 @@ import boto3
 # Enter the region your instances are in. Include only the region without specifying Availability Zone; e.g., 'us-east-1'
 region = 'ap-south-1'
 # Enter your instances here: ex. ['X-XXXXXXXX', 'X-XXXXXXXX']
-instances = ['i-0009099216448c8ed']
+instances = ['i-XXXXXXXX']
 
 def lambda_handler(event, context):
     ec2 = boto3.client('ec2', region_name=region)

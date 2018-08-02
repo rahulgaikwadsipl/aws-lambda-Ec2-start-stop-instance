@@ -20,7 +20,7 @@ Steps
 6.    In the IAM Role drop-down menu, choose Create a new IAM Role, and enter a Role Name, such as “lambda_start_stop_ec2."
 7.    Expand View Policy Document, choose Edit, and then choose Ok when prompted to read the documentation. Edit the policy as follows:
 
-```javascript
+```
 {
   "Version": "2012-10-17",
   "Statement": [
